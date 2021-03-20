@@ -11,37 +11,49 @@
             font-family: 'Menlo';
             src: url(./Menlo.ttc);
         }
+
         body {
             width: 100%;
             height: 100%;
-            margin: 0;
-            padding: 0;
             background-color: #292a2b;
         }
+
         #app {
             width: 100%;
             height: 100%;
             font-family: 'Menlo';
+        }
+
+        .remu {
+            color: #91bef0;
+        }
+        .lamu {
+            color: #eb96ab;
         }
     </style>
 </head>
 
 <body>
     <div id="app">
-        <h1 style="color: #91bef0;">f(x)->KT</h1>
+        <h1>
+            <span class="remu">f(</span><span class="lamu">x</span><span
+            class="remu">)->KT</span>
+        </h1>
         <h3 style="color: #606370;">
-            RE: ZERO - 
+            RE: ZERO -
             <a href="https://github.com/fxkt-tech" style="color: #606370;">Starting</a>
-             Life in Binary World.
+            Life in Binary World.
         </h3>
         <div id="links">
             <ul>
-                <li style="color: #91bef0;">
-                    <a href="https://goana.book.fxkt.tech" target="_blank" style="color: #91bef0;text-decoration: none">《goana》</a>
+                <li class="remu">
+                    <a class="remu" href="https://goana.book.fxkt.tech" target="_blank"
+                        style="text-decoration: none">《<span class="lamu">goana</span>》-></a>
+                    <span style="color: grey;">golang analysis.</span>
                 </li>
             </ul>
         </div>
-        
+
     </div>
 </body>
 
