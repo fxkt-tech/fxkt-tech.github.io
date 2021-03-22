@@ -9,3 +9,4 @@ init:
 .PHONY: fontspider
 fontspider:
 	font-spider index.html
+	mv .font-spider font
